@@ -6,8 +6,8 @@ export default function Template({ children }: { children: React.ReactNode }) {
     return (
         <>
             <div>
-                <h1>Templates {state}</h1>
-                <button onClick={() => setState(state + 1)}>Klik untuk templates</button>
+                {/* <h1>Templates {state}</h1>
+                <button onClick={() => setState(state + 1)}>Klik untuk templates</button>*/}
                 {children}
             </div>
         </>

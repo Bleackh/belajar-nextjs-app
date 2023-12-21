@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {/* <div>Hello World</div> */}
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar>
         <h1>Layout {state}</h1>
-        <button onClick={() => setState(state + 1)}>Klik untuk Layout</button>
+        <button onClick={() => setState(state + 1)}>Klik untuk Layout</button> */}
         {children}
       </body>
     </html>
